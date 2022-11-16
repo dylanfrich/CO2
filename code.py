@@ -12,6 +12,7 @@ print("Serial number:", [hex(i) for i in scd4x.serial_number])
 # initialize the LED
 led = digitalio.DigitalInOut(board.led)
 led.direction = digitalio.Direction.OUTPUT
+led.value = True
 
 #initialize the button
 button = digitalio.DigitalInOut(board.BUTTON)
