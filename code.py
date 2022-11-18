@@ -10,7 +10,7 @@ scd4x = adafruit_scd4x.SCD4X(i2c)
 print("Serial number:", [hex(i) for i in scd4x.serial_number])
 
 # initialize the LED
-led = digitalio.DigitalInOut(board.led)
+led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 led.value = True
 
