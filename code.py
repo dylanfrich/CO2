@@ -1,5 +1,4 @@
 import time
-
 import board
 import digitalio
 import adafruit_scd4x
